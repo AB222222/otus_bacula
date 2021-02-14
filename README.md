@@ -1,7 +1,8 @@
 # otus_bacula
 
-## Установка и настройка как-то так:
+### Установка и настройка как-то так:
 
+```
 me@me-HP-260-G3-DM:~/otus-linux/DZ_OTUS_BACULA$ vagrant ssh baculaserver
 [vagrant@baculaserver ~]$ sudo -i
 [root@baculaserver ~]# alternatives --config libbaccats.so
@@ -35,11 +36,13 @@ Bye
 [root@baculaserver ~]# /usr/libexec/bacula/make_mysql_tables
 Creation of Bacula MySQL tables succeeded.
 [root@baculaserver ~]# 
+```
 
-## Файлы клиента и сервера, которые надо положить в /etc/bacula - в директория server и client
+### Файлы клиента и сервера, которые надо положить в /etc/bacula - в директория server и client
 
-## Джобы:
+### Джобы:
 
+```
 *list jobs
 +-------+-------------------------------------------+---------------------+------+-------+----------+------------+-----------+
 | JobId | Name                                      | StartTime           | Type | Level | JobFiles | JobBytes   | JobStatus |
@@ -139,3 +142,4 @@ Job queued. JobId=6
 +-------+-------------------------------------------+---------------------+------+-------+----------+------------+-----------+
 *
 
+```
