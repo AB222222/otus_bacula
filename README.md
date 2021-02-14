@@ -1,6 +1,6 @@
 # otus_bacula
 
-### Установка и настройка как-то так:
+Установка и настройка как-то так:
 
 ```
 me@me-HP-260-G3-DM:~/otus-linux/DZ_OTUS_BACULA$ vagrant ssh baculaserver
@@ -38,9 +38,9 @@ Creation of Bacula MySQL tables succeeded.
 [root@baculaserver ~]# 
 ```
 
-### Файлы клиента и сервера, которые надо положить в /etc/bacula - в директория server и client
+Файлы клиента и сервера, которые надо положить в /etc/bacula - в директориях server и client
 
-### Джобы:
+Джобы:
 
 ```
 *list jobs
